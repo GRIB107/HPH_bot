@@ -21,7 +21,7 @@ PYTHONANYWHERE_USERNAME = "GRIB107"
 Configuration.configure(SHOP_ID, SECRET_KEY)
 
 main_dir = path.dirname(path.dirname(__file__))
-media_dir = path.join(main_dir, 'storage_suka')
+media_dir = path.join(main_dir, 'storage')
 filename = path.join(media_dir, 'data.json')
 users = {}
 order = (1, 1000000)
