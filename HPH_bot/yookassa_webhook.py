@@ -12,7 +12,7 @@ logging.info("Вебхук запущен")
 
 bot = TeleBot(config['token'])
 PYTHONANYWHERE_USERNAME = "GRIB107"
-ADMIN_CHAT_ID = 398165085  # Замените на ваш chat_id админа
+ADMIN_CHAT_ID = 398165085 
 
 def load_user(user_id):
     try:
